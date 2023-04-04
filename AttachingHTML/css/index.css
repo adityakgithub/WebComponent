@@ -1,0 +1,4 @@
+p {
+    /* affects all p on the page except those inside shadow boundaries */
+    color: red;
+}
