@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="Description" content="Put your description here.">
+  <base href="/">
+
+  <link
+    href="https://fonts.googleapis.com/css?family=Material+Icons&display=block"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+
+    motion-todos {
+      width: 600px;
+    }
+
+    @media screen and (max-width: 600px) {
+      motion-todos {
+        width: 100%;
+      }
+    }
+  </style>
+  <title>my-assign</title>
+</head>
+
+<body>
+  <my-assign></my-assign>
+
+  <script type="module" src="./out-tsc/src/my-assign.js"></script>
+</body>
+
+</html>
